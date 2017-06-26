@@ -1,0 +1,18 @@
+## JavaScript
+<!-- .replace -->
+// $("#main").append("James");
+// [string].replace([old],[new])
+
+var email = "cameron@udacity.com";
+
+var newEmail = email.replace("udacity","gmail");
+
+console.log(email);
+console.log(newEmail);
+
+var awesomeThoughts = "My name is Cameron and I and AWESOME!";
+
+var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
+
+$("#main").append(funThoughts); 
+
