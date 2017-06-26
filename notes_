@@ -10,9 +10,33 @@ var newEmail = email.replace("udacity","gmail");
 console.log(email);
 console.log(newEmail);
 
+<!-- .append + jquery -->
+
 var awesomeThoughts = "My name is Cameron and I and AWESOME!";
 
 var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
 
-$("#main").append(funThoughts); 
+$("#main").append(funThoughts);
+
+<!-- .replace + .append > Change Name in CV Project -->
+
+var formattedName = HTMLheaderName.replace("%data%", "name");
+
+$("#header").append(formattedName);
+
+<!-- string.toUpperCase() + string.slice() -->
+
+var s = "audacity";
+
+s = s[1].toUpperCase() + s.slice(2);
+console.log(s);
+"Udacity"
+
+<!-- arrays -->
+
+var skills = ["awesomeness","programming","teaching","js"]:
+
+$("#main").append(skills);
+$("#main").append(skills[0]);
+
 
