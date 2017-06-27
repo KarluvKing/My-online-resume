@@ -39,4 +39,66 @@ var skills = ["awesomeness","programming","teaching","js"]:
 $("#main").append(skills);
 $("#main").append(skills[0]);
 
+<!-- Objects -->
+
+var skills = ["awesomeness","programming","teaching","js"]:
+
+var bio = {
+	"name" : "James",
+	"age" : 32
+	"skills" : skills
+};
+
+\\ add name to the page
+
+$("#main").append(bio.name);
+
+\\ append propreties to a object
+\\ .point
+
+bio.city = "Mountain View";
+bio.email = "james.williams@udacity.com";
+
+$("#main").append(bio.city);
+
+\\ [""]
+
+bio["city"] = "Mountain view";
+bio["email"] = "james.williams@udacity.com"
+
+$("#main").append(bio["city"]);
+
+<!-- JSON Example -->
+
+var education = {
+	"schools": [
+	{
+		"name": "Eckerd College",
+		"city": "Saint Petersburg, FL, US",
+		"degree": "BA",
+		"major": ["CompSci","French"]
+	},
+	{
+		"name": "Nova Southeastren University",
+		"city": "Fort Lauderdale, FL, US",
+		"degree": "Masters",
+		"major": ["CompSci"]
+	}
+	]
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
